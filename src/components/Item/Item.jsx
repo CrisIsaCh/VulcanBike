@@ -8,6 +8,7 @@ export const Item =({name,price,description,category,image,children}) => {
             <p>{description}</p>
             <p> ${price}</p>
             
+            
 
             {children}
 
