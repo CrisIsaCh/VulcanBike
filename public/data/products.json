@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Trek Marlin 5",
+        "description": "Bicicleta MTB rodado 29 con cuadro de aluminio, ideal para montaña y uso urbano.",
+        "price": 1450000,
+        "image": "/img/trex-marlin5.png",
+        "category": "MTB"
+    },
+    {
+        "id": 2,
+        "name": "Specialized Rockhopper",
+        "description": "Bicicleta MTB de aluminio para cross country y senderos.",
+        "price": 1250000,
+        "image": "/img/specializaed rockshopeer.jpg",
+        "category": "MTB"
+    },
+    {
+        "id": 3,
+        "name": "Trek Domane AL 2",
+        "description": "Bicicleta de ruta de aluminio con geometría endurance para largas distancias.",
+        "price": 2100000,
+        "image": "/img/trek nomade.jpeg",
+        "category": "Ruta"
+    },
+    {
+        "id": 4,
+        "name": "Giant Contend AR 4",
+        "description": "Bicicleta de ruta de aluminio versátil para asfalto y caminos de grava.",
+        "price": 1950000,
+        "image": "/img/giant  contend ar 4.jpg",
+        "category": "Ruta"
+    },
+    {
+        "id": 5,
+        "name": "Scott Speedster",
+        "description": "Bicicleta de ruta de aluminio con geometría orientada a resistencia y velocidad.",
+        "price": 2300000,
+        "image": "/img/scott speedster.webp",
+        "category": "Ruta"
+    },
+    {
+        "id": 6,
+        "name": "Trek Verve+ 3",
+        "description": "Bicicleta eléctrica urbana con motor Bosch Performance Line y batería de 545 Wh.",
+        "price": 3200000,
+        "image": "/img/trek2026verve.jpg",
+        "category": "Eléctrica"
+    },
+    {
+        "id": 7,
+        "name": "Specialized Turbo Vado",
+        "description": "Bicicleta eléctrica urbana y de trekking con asistencia al pedaleo.",
+        "price": 3500000,
+        "image": "/img/specialized-turbo-vado.jpg",
+        "category": "Eléctrica"
+    },
+    {
+        "id": 8,
+        "name": "Venzo Vulcan EX",
+        "description": "Bicicleta MTB rodado 29, cuadro de aluminio, 12 velocidades Shimano Deore, color rojo, blanco y negro.",
+        "price": 1742390,
+        "image": "/img/vulcanEx.webp",
+        "category": "MTB"
+    },
+    {
+        "id": 9,
+        "name": "Zion Ovanta R29",
+        "description": "Bicicleta MTB rodado 29 con cuadro de aluminio, ideal para montaña, senderos y uso urbano.",
+        "price": 480000,
+        "image": "/img/zion ovanta.webp",
+        "category": "MTB"
+    }
+]
