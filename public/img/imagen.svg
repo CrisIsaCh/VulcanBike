@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="100%" height="100%">
+  <defs>
+    <!-- Gradiente amarillo intenso y negro técnico -->
+    <linearGradient id="vulcanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#FFA500" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo oscuro/negro para el header -->
+  <rect width="340" height="80" fill="#121212" rx="8" />
+
+  <!-- Icono de Bicicleta con detalles en amarillo -->
+  <g transform="translate(15, 12)">
+    <!-- Ruedas -->
+    <circle cx="24" cy="40" r="13" fill="none" stroke="url(#vulcanGrad)" stroke-width="3.5" />
+    <circle cx="64" cy="40" r="13" fill="none" stroke="url(#vulcanGrad)" stroke-width="3.5" />
+    
+    <!-- Cuadro de la bicicleta -->
+    <path d="M 24,40 L 41,22 L 53,40 L 35,40 Z" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linejoin="round" />
+    <path d="M 41,22 L 30,15" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" />
+    <path d="M 53,40 L 60,17" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" />
+    <path d="M 41,22 L 47,40" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Nombre de la Tienda: VULCAN -->
+  <text x="96" y="44" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" letter-spacing="1">
+    VULCAN
+  </text>
+  
+  <!-- Subtítulo: BIKESHOP -->
+  <text x="98" y="60" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="url(#vulcanGrad)" letter-spacing="4">
+    BIKESHOP
+  </text>
+</svg>

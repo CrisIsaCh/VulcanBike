@@ -1,8 +1,9 @@
 footer {
   margin-top: 4rem;
 
-  background: var(--surface);
-  border-top: 1px solid var(--border);
+  /* background: var(--surface); */
+  background-color: rgb(252, 215, 6);
+  border-top: 5px solid white;
 
   padding: 1.5rem 3rem;
 
@@ -22,6 +23,10 @@ footer .nav-list {
 footer li {
   transition: 0.25s;
   cursor: pointer;
+  color: black;
+  -webkit-text-stroke: 0.5px rgb(207, 195, 176);
+  font-size: 20px;
+  font-weight: 700;
 }
 
 footer li:hover {

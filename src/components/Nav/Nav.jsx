@@ -5,10 +5,10 @@ export const Nav =() => {
         <nav>
             <ul className="nav-list">
                 <li>
-                    <Link to={"/"}>Home</Link>
+                    <Link to={"/"}>INICIO</Link>
                 </li>
                 <li>
-                    <Link to={"/cart"}>Carrito</Link>
+                    <Link to={"/cart"}>CARRITO</Link>
                 </li>
 
             </ul>

@@ -19,7 +19,8 @@
   --danger: #e63946;
 }
 body {
-  background: var(--bg);
+  /* background: var(--bg); */
+  background-color: #151618;
   color: var(--text);
   font-family: system-ui, sans-serif;
 }

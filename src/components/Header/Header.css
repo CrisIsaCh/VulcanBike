@@ -1,8 +1,9 @@
 header {
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
+  /* background: var(--surface); */
+  background-color: rgb(252, 215, 6);
+  border-bottom: 5px solid white;
 
-  padding: 1rem 3rem;
+  padding: 0.7rem 3rem;
 
   display: flex;
   justify-content: space-between;
@@ -13,10 +14,11 @@ header {
   display: flex;
   align-items: center;
   gap: 0.8rem;
+  
 }
 
 .logo-container img {
-  width: 45px;
+  width:450px;
 }
 
 .logo-container span {
