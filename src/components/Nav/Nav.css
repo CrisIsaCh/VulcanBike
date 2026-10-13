@@ -5,9 +5,9 @@
 }
 
 .nav-list a {
-  font-weight: 700;
+  font-weight: 900;
   transition: 0.25s;
-  font-size: 30px;
+  font-size: 20px;
   /* color: black; */
   -webkit-text-stroke: 1px rgb(83, 63, 32);
 }
