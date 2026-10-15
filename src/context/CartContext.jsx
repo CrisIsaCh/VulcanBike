@@ -20,16 +20,13 @@ export const CartProvider = ({ children }) => {
     const [cart, setCart] = useState([]);
     //ESTA EN EL CARRITO
     const isInCart = (item) => {
-        const inCart = cart.some((element) => {
-            element.id == item.id
-
-        });
+        const inCart = cart.some((element) => element.id === item.id);
         return inCart;
     };
     //AGREGAR ITEM AL CARRITO
     const addItem = (item) => {
         if (isInCart(item)) {
-            alert("EL PRODUCTO YA EXIXTE EN EL CARRITO");
+            alert("EL PRODUCTO YA EXISTE EN EL CARRITO");
             return;
 
         }

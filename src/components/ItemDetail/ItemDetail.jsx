@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom"
 import { Item } from "../Item/Item"
 import "./ItemDetail.css"
+import { useCart } from "../../context/CartContext"
 export const ItemDetail = ({ item }) => {
+
+    const { addItem } = useCart();
     return <div className="detail-wrapper">
         <Item {...item}>
-            <Link to={'/cart'}>
-            <button className="btn bg-primary primary">Agregar al Carrito</button>
-            </Link>
+            <button className="btn bg-primary primary" onClick={() => addItem(item)}>Agregar al Carrito</button>
         </Item>
 
     </div>
